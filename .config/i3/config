@@ -1,7 +1,7 @@
 font pango:DejaVu Sans Mono 9
 
 client.focused	#268bd2   #268bd2   #ffffff   #268bd2  #268bd2
-bindsym Mod1+d exec exec rofi -show run
+bindsym Mod1+d exec exec dmenu_run
 bindsym Mod1+g exec exec rofi -show ssh
 bindsym Mod1+t exec exec termite -d ~ -t "file browser" -e ranger
 bindsym Mod1+p exec exec termite -t "system monitor" -e gtop
