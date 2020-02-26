@@ -41,8 +41,15 @@ $ sudo apt install python-wand
 $ sudo apt install hsetroot
 $ sudo apt install feh
 $ sudo apt install compton
+$ sudo apt install neofetch
+$ sudo apt install ranger
 
 $ sudo apt install xterm
+```
+
+To install termite follow this Tutorial:
+```
+https://computingforgeeks.com/install-termite-terminal-on-ubuntu-18-04-ubuntu-16-04-lts/
 ```
 
 ## Screenshots
