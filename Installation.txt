@@ -1,0 +1,16 @@
+git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+git clone https://github.com/sjl/badwolf.git
+cp badwolf/colors ~/.vim/colors/badwolf
+
+sudo add-apt-repository ppa:kgilmer/speed-ricer
+sudo apt update
+sudo apt install i3-gaps-wm
+
+sudo apt install polybar
+sudo apt install python-wand
+
+sudo apt install hsetroot
+sudo apt install feh
+sudo apt install compton
+
+sudo apt install xterm

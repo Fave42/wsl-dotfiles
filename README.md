@@ -16,6 +16,35 @@ Included are configuration files and scripts for:
 (Compatibility tab of Properties). Otherwise, Windows will incorrectly scale it, capping your X server to around half the
 resolution it should be displaying at (e.g. 1600p instead of 4K).
 
+## Installation
+```
+$ git clone git@github.com:Fave42/wsl-dotfiles.git
+$ cp -r /.config  ~/
+$ cp -r /.scripts  ~/
+$ cp /.Xresources  ~/.Xresources
+$ mv ~/.bashrc ~/.bashrc_or
+$ cp /.basrc ~/.basrc
+$ mv ~/.vimrc ~/.vimrc_or
+$ cp /.vimrc ~/.vimrc
+
+$ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+$ git clone https://github.com/sjl/badwolf.git
+$ cp badwolf/colors ~/.vim/colors/badwolf
+
+$ sudo add-apt-repository ppa:kgilmer/speed-ricer
+$ sudo apt update
+$ sudo apt install i3-gaps-wm
+
+$ sudo apt install polybar
+$ sudo apt install python-wand
+
+$ sudo apt install hsetroot
+$ sudo apt install feh
+$ sudo apt install compton
+
+$ sudo apt install xterm
+```
+
 ## Screenshots
 
 ![](https://i.imgur.com/ImRRhRZ.jpg)
